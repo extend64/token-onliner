@@ -1,7 +1,9 @@
 **Kurulum**
 
-1. index.js içinde ki channelID kısmına tokenlerin katılacağı ses kanalının ID'sini girin
+**Kurulum**
 
-2. tokens.txt içine sese girecek hesapların tokenlerini girin
+**1.** index.js içinde ki channelID kısmına tokenlerin katılacağı ses kanalının ID'sini girin
 
-3. Sonra **discord.js-self** modülünü kurup başlatın
+**2.** tokens.txt içine sese girecek hesapların tokenlerini girin
+
+**3.** Sonra `discord.js-self` modülünü kurup başlatın
