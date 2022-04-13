@@ -1,9 +1,7 @@
 const Discord = require('discord.js-self');
-const File = require('fs');
+const fs = require('fs');
 
-const channelID = "" // ChannelID
-
-function joinVoice(token) {
+function online(token) {
 
   const client = new Discord.Client();
 
@@ -13,6 +11,6 @@ function joinVoice(token) {
     console.log(`${client.user.tag} is online!`);
   })
 
-const tokens = File.readFileSync('./tokens.txt', 'utf-8').split('\n');
+const tokens = fs.readFileSync('./tokens.txt', 'utf-8').split('\n');
 
-tokens.forEach(t => joinVoice(t))
+tokens.forEach(t => online(t))
